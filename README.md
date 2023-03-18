@@ -2,9 +2,6 @@
 *Started: 07/03/2023 - 17/03/2023 and 5 minutes to read*
 :star: This is a project that I made to practice and apply bootstrap in building responsive website. Cloning from a pattern which was on wix.com combining with some ideas of myself. The project uses Bootstrap as CSS framework, with a little basic javascript.
 ***
-## To do lists
-2. Upload website online
-3. Push into git hub
 
 ## Features in the Project
 #### 1. Hover animation for navbar links
@@ -17,21 +14,22 @@ Use `nav-links:hover::after{}`
 ![](assets/img/README/2023-03-17-23-09-02.png)
 #### 3. Repsonsive website 
 All webpages are responsive, stretch properly on multiple resolutions
-* **PC**
+* **PC** <br>
 ![](assets/img/README/2023-03-17-23-11-32.png)
-* **Tablet**
+* **Tablet** <br>
 ![](assets/img/README/2023-03-17-23-11-58.png)
-* **Mobile**
+* **Mobile** <br>
 ![](assets/img/README/2023-03-17-23-12-28.png)
 #### 4. Toggle bar on resolutions smaller than Tablet's
 ![](assets/img/README/2023-03-17-23-13-48.png)
+**--->**
 ![](assets/img/README/2023-03-17-23-14-04.png)
 #### 5. Reveal elemment on scrolling
 The animation of elements on webpage will be played when you first scroll down
 
 
 ## Note-Taking Section
-*- for my study throughtout this project - no need to read*
+*- for my study throughtout this project*
 1. **Easy modal js**: 
    1. Add attribute for open/close btn: `onclick="show/closeMenu"`
    2. Add the following js
