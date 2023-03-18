@@ -180,7 +180,7 @@ body{
     margin-bottom: 230px;
 }
 .about__col-1{
-    background-image: url(/assets/img/aboutbg1.avif) ;
+    background-image: url(../img/aboutbg1.avif) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -216,7 +216,7 @@ body{
 }
 .desc__col-1{
     height: 100%;
-    background-image: url(/assets/img/descbg.webp) ;
+    background-image: url(../img/descbg.webp) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -229,7 +229,7 @@ body{
 }
 .statistic__bg{
     background-image: linear-gradient( rgba(9, 7, 10, 1), rgba(20, 19, 22,.85), rgba(9, 7, 10, .85), rgba(9, 7, 10, 1))
-    ,url(/assets/img/statisticbg2.jpg);
+    ,url(../img/statisticbg2.jpg);
     background-size: cover;
     background-position: center;
     
@@ -257,7 +257,7 @@ body{
 .request__row-bg{
     height: 798px;
     background-image: linear-gradient(rgba(0,0,0,.6), rgba(0,0,0,0.6))
-    ,url(/assets/img/requestbg.jpg) ;
+    ,url(../img/requestbg.jpg) ;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -300,7 +300,7 @@ body{
 }
 /* --------- Solutions ------- */
 .solutions__intro{
-    background-image: linear-gradient(rgba(10, 8, 11, .7), rgba(10, 8, 11, .7)), url(/assets/img/solutions_introbg.jpg);
+    background-image: linear-gradient(rgba(10, 8, 11, .7), rgba(10, 8, 11, .7)), url(../img/solutions_introbg.jpg);
     padding-bottom: 200px;
 }
 .service__icon-1, .service__icon-2{
