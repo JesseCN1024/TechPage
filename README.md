@@ -5,7 +5,7 @@
 
 ## Features in the Project
 #### 1. Hover animation for navbar links
-Use `nav-links:hover::after{}`
+Use `nav-links:hover::a`fter{}`
 ![](assets/img/README/2023-03-08-23-16-04.png)
 #### 2. Multiple WebPages
 * **Main page**
@@ -90,8 +90,6 @@ The animation of elements on webpage will be played when you first scroll down
                }
          }
    ```
-7. Fixing background-img not display in github host page: change directory from `/assets/img..` to `../img/...` 
-
 
 
 
