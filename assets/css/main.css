@@ -151,7 +151,7 @@ body{
 }
 .content__intro{
     background-image: linear-gradient(rgba(10,8,11,.7), rgba(10, 8, 11, .7))
-    ,url(/assets/img/introbg.avif);
+    ,url(../img/introbg.avif);
     background-color: rgb(10, 8, 11);
     background-size: 100%;
     background-repeat: no-repeat;
