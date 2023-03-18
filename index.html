@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurize - The rising of our future</title>
+    <link rel="icon" type="favicon.ico" href="./assets/img/webicon.png">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body style="height: 2000px;">
+    <!-- Header -->
+    <div class="header fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="height: var(--header-height);">
+            <div class="container-md">
+                <!-- Logo -->
+                <a class="navbar-brand fw-semibold fst-italic fs-3" href="#">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    Futurize
+                </a>
+                <!-- Nav links -->
+                <div class="justify-content-end d-flex position-relative">
+                    <ul class="navbar-nav navbar__nav-links" id="navLinks">
+                        <!-- Exit Btn -->
+                        <i class="fa-solid fa-x navbar__xbtn" onclick="closeMenu()"></i>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" aria-current="page" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="vision.html">Vision</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-4">
+                            <a class="nav-link header__nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item navbar__nav-links-login me-4">
+                            <a class="nav-link p-0 d-flex align-items-center" style="font-size: 1.2rem;" href="#">
+                                <i class="fa-regular fa-user me-1" style="color: var(--nav-hover-color);"></i>
+                                <span class="fw-light header__nav-loginbtn" style="color: var(--nav-hover-color);">Log
+                                    in</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar__">
+                        <button class="btn btn-outline-light header__nav-btn" >Get Started</button>
+                        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation" onclick="showMenu()">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <!-- Intro section -->
+        <div class="content__intro">
+            <div class="container-md text-center text-lg-start">
+                <h5 class="lh-1 text-white fw-normal slide-from-left-1 text-sm-center text-lg-start" >The
+                    New Standard <br>in Data Analysis</h5>
+                <p class="card-text text-white lh-1 mt-4 mt-lg-5 slide-from-left-2 text-sm-center text-lg-start" >Use Data to Get a
+                    360-Degree<br>View of Your Business</p>
+                <button class="btn btn-danger mt-4 mt-lg-5 px-4 py-3 intro__btn slide-from-left-3 ">Learn more</button>
+
+            </div>
+        </div>
+        <!-- Remaining Section -->
+        <div class="container-lg">
+            <!-- About section -->
+            <div class="row about__row align-items-center border border-secondary border-1 border-sm-md-0">
+                <!-- About__Desc -->
+                <div class="col-lg-5 col-sm-12 p-0 py-5 p-md-5 about__col-1 h-100 d-flex">
+                    <div class="about__info my-auto text-center text-lg-start">
+                        <h3 class="fs-2 fw-semibold text-white p-5 pb-3 slide-from-left-1 text-center text-lg-start reveal" style="font-size:30px;">Let
+                            Your
+                            Data Take Your Business to Higher Grounds</h3>
+                        <p class="text-secondary p-5 pt-0 slide-from-left-1 text-center text-lg-start reveal" style="font-size:16px;">I'm a paragraph.
+                            Click
+                            here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me
+                            to
+                            add your own content and make changes to the font.</p>
+                    </div>
+                </div>
+                <!-- About Cols -->
+                <div class="col-lg-7 col-sm-12 border-start border-secondary border-1 h-100 border-start-sm-md-0">
+                    <div class="row mx-3 md-ms-61 me-md-5">
+                        <div class="col-lg-6 col-sm-12 gx-3 gy-3 about__col">
+                            <div class="card w-100 text-center text-md-start about__card p-3 rounded-3 slide-from-angle reveal"
+                                style="width: 18rem; box-sizing: border-box;">
+                                <div class="overflow-hidden" style="margin: 1rem;">
+                                    <svg class="about__icon mb-3 mb-md-5 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;"
+                                        preserveAspectRatio="xMidYMid meet" data-bbox="19.868 38.586 160.264 121.194"
+                                        viewBox="19.868 38.586 160.264 121.194" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                        aria-hidden="true" aria-labelledby="svgcid--67bwbc-4nmds3">
+                                        <defs>
+                                            <style>
+                                                #comp-kk2skte2 svg [data-color="1"] {
+                                                    fill: #FD6262;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <title id="svgcid--67bwbc-4nmds3"></title>
+                                        <g>
+                                            <path
+                                                d="M149.73 83.547c-2.538-25.284-24.211-44.961-49.73-44.961S52.808 58.263 50.269 83.547c-17.67 3.837-30.401 19.54-30.401 37.674 0 21.261 17.297 38.559 38.559 38.559h83.146c21.261 0 38.559-17.297 38.559-38.559 0-18.135-12.732-33.838-30.402-37.674zm-8.157 64.423H58.427a26.755 26.755 0 0 1-16.198-5.482l21.237-21.114 13.181 13.19 36.505-35.875 8.081 8.047 6.076-30.357-30.353 6.177 8.281 8.243-28.512 28.025-13.236-13.239-28.56 28.399a26.646 26.646 0 0 1-3.252-12.763c0-13.887 10.85-25.598 24.701-26.661l5.452-.419v-5.488l-.003-.16C61.868 67.486 78.992 50.395 100 50.395c21.047 0 38.171 17.078 38.172 38.069l-.004 5.677 5.453.419c13.851 1.063 24.701 12.774 24.701 26.661 0 14.749-11.999 26.749-26.749 26.749z"
+                                                fill="#FD6262" data-color="1"></path>
+                                        </g>
+                                    </svg>
+                                    <h5 class="card-title about__tittle mt-2 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">Cloud
+                                        Analytics Modernization</h5>
+                                    <p class="card-text about__desc slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">I'm a
+                                        paragraph. Click here to add your own text and edit me. Let your users get to
+                                        know you.</p>
+                                    <div
+                                        class="about__sliding mt-3 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 gx-3 gy-3 about__col">
+                            <div class="card w-100 text-center text-md-start about__card p-3 rounded-3 slide-from-angle reveal"
+                                style="width: 18rem; box-sizing: border-box;">
+                                <div class="overflow-hidden" style="margin: 1rem;">
+                                    <svg class="about__icon mb-3 mb-md-5 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;"
+                                        preserveAspectRatio="xMidYMid meet" data-bbox="20.532 45.947 158.928 108.107"
+                                        viewBox="20.532 45.947 158.928 108.107" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                        aria-hidden="true" aria-labelledby="svgcid--mb6mjv-gh4jti">
+                                        <defs>
+                                            <style>
+                                                #comp-kk2sktdt svg [data-color="1"] {
+                                                    fill: #FD6262;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <title id="svgcid--mb6mjv-gh4jti"></title>
+                                        <g>
+                                            <path
+                                                d="M82.935 75.852l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.828 4.828 0 0 0 0-8.768l-44.836-20.692a4.826 4.826 0 0 0-4.047 0L82.935 67.083a4.828 4.828 0 0 0 0 8.769zm46.86-19.759l33.312 15.374-33.312 15.374-33.312-15.374 33.312-15.374z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M172.608 95.616l-42.813 19.758-42.813-19.758a4.83 4.83 0 0 0-4.047 8.769l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.83 4.83 0 0 0-4.047-8.769z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M172.608 124.149l-42.813 19.758-42.813-19.758a4.828 4.828 0 1 0-4.047 8.769l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.83 4.83 0 0 0-4.047-8.769z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M65.095 95.171H25.368a4.829 4.829 0 1 0 0 9.658h39.727a4.829 4.829 0 1 0 0-9.658z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M65.095 76.446H37.44a4.829 4.829 0 1 0 0 9.658h27.655a4.829 4.829 0 1 0 0-9.658z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M65.095 113.897H49.512a4.829 4.829 0 1 0 0 9.658h15.583a4.829 4.829 0 1 0 0-9.658z"
+                                                fill="#FD6262" data-color="1"></path>
+                                        </g>
+                                    </svg>
+                                    <h5 class="card-title about__tittle mt-2 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">Data Science
+                                        Acceleration</h5>
+                                    <p class="card-text about__desc slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">I'm a
+                                        paragraph. Click here to
+                                        add your own text and edit me. Let your users get to know you.</p>
+                                    <div
+                                        class="about__sliding mt-3 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 gx-3 gy-3 about__col">
+                            <div class="card w-100 text-center text-md-start about__card p-3 rounded-3 slide-from-angle reveal"
+                                style="width: 18rem; box-sizing: border-box;">
+                                <div class="overflow-hidden" style="margin: 1rem;">
+                                    <svg class="about__icon mb-3 mb-md-5 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;"
+                                        preserveAspectRatio="xMidYMid meet" data-bbox="20.42 48.257 159.16 103.485"
+                                        viewBox="20.42 48.257 159.16 103.485" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                        aria-hidden="true" aria-labelledby="svgcid-pe8egg23m96y">
+                                        <defs>
+                                            <style>
+                                                #comp-kk2sktdx svg [data-color="1"] {
+                                                    fill: #FD6262;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <title id="svgcid-pe8egg23m96y"></title>
+                                        <g>
+                                            <path
+                                                d="M177.118 96.151L142.48 80.165a4.235 4.235 0 0 0-3.555 0l-34.637 15.986a4.252 4.252 0 0 0-2.464 3.849c0 1.648.967 3.159 2.463 3.85l34.638 15.986c.553.255 1.167.39 1.777.39.619 0 1.217-.131 1.778-.39l34.638-15.986c1.496-.691 2.462-2.202 2.462-3.85s-.967-3.159-2.462-3.849zM165.223 100l-24.521 11.316L116.181 100l24.52-11.316L165.223 100z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M98.177 100a4.251 4.251 0 0 0-2.463-3.849L61.076 80.165a4.236 4.236 0 0 0-3.554 0L22.883 96.151c-1.496.691-2.463 2.202-2.463 3.849s.967 3.159 2.463 3.85l34.638 15.985a4.257 4.257 0 0 0 1.777.391c.619 0 1.216-.131 1.777-.39l34.638-15.986a4.253 4.253 0 0 0 2.464-3.85zm-14.358 0l-24.521 11.316L34.778 100l24.52-11.316L83.819 100z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M63.585 72.333l34.638 15.985a4.257 4.257 0 0 0 1.777.391 4.21 4.21 0 0 0 1.777-.39l34.639-15.986a4.253 4.253 0 0 0 2.462-3.85 4.252 4.252 0 0 0-2.462-3.849l-34.639-15.986a4.236 4.236 0 0 0-3.554 0L63.585 64.634a4.253 4.253 0 0 0-2.463 3.849c0 1.648.966 3.159 2.463 3.85zm11.895-3.85L100 57.167l24.52 11.316L100 79.8 75.48 68.483z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M136.417 127.667l-34.639-15.986a4.236 4.236 0 0 0-3.554 0l-34.639 15.986c-1.496.691-2.463 2.202-2.463 3.849s.967 3.159 2.463 3.85l34.638 15.985a4.257 4.257 0 0 0 1.777.391 4.21 4.21 0 0 0 1.777-.39l34.639-15.986c1.496-.691 2.462-2.202 2.462-3.85s-.966-3.158-2.461-3.849zm-11.897 3.85L100 142.833l-24.52-11.316L100 120.2l24.52 11.317z"
+                                                fill="#FD6262" data-color="1"></path>
+                                        </g>
+                                    </svg>
+                                    <h5 class="card-title about__tittle mt-2 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">Versatility in
+                                        Application</h5>
+                                    <p class="card-text about__desc slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">I'm a
+                                        paragraph. Click here to
+                                        add your own text and edit me. Let your users get to know you.</p>
+                                    <div
+                                        class="about__sliding mt-3 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 gx-3 gy-3 about__col">
+                            <div class="card w-100 text-center text-md-start about__card p-3 rounded-3 slide-from-angle reveal"
+                                style="width: 18rem; box-sizing: border-box;">
+                                <div class="overflow-hidden" style="margin: 1rem;">
+                                    <svg class="about__icon mb-3 mb-md-5 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;"
+                                        preserveAspectRatio="xMidYMid meet" data-bbox="20.124 26.752 159.752 146.495"
+                                        viewBox="20.124 26.752 159.752 146.495" height="200" width="200"
+                                        xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                        aria-hidden="true" aria-labelledby="svgcid--xyli1hbnklvj">
+                                        <defs>
+                                            <style>
+                                                #comp-kk2sktdk svg [data-color="1"] {
+                                                    fill: #FD6262;
+                                                }
+                                            </style>
+                                        </defs>
+                                        <title id="svgcid--xyli1hbnklvj"></title>
+                                        <g>
+                                            <path
+                                                d="M117.275 125.299c8.267-5.705 13.161-14.963 13.161-25.039 0-16.782-13.653-30.435-30.435-30.435S69.566 83.478 69.566 100.26c0 10.076 4.892 19.333 13.159 25.039-17.083 6.994-28.462 23.834-28.462 42.343v5.605h91.474v-5.605c0-18.509-11.38-35.349-28.462-42.343zm-17.274-5.814c-10.6 0-19.225-8.624-19.225-19.225 0-10.6 8.625-19.224 19.225-19.224s19.225 8.624 19.225 19.224c0 10.601-8.625 19.225-19.225 19.225zm-34.074 42.552c2.713-16.546 17.215-28.921 34.074-28.921 16.857 0 31.36 12.375 34.072 28.921H65.927z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M100.001 62.03c9.726 0 17.639-7.913 17.639-17.639 0-9.726-7.913-17.639-17.639-17.639-9.727 0-17.64 7.913-17.64 17.639 0 9.726 7.912 17.639 17.64 17.639zm-6.429-17.639a6.435 6.435 0 0 1 6.429-6.428 6.435 6.435 0 0 1 6.428 6.428 6.435 6.435 0 0 1-6.428 6.429 6.437 6.437 0 0 1-6.429-6.429z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M37.764 101.971c-9.727 0-17.64 7.913-17.64 17.639 0 9.727 7.913 17.639 17.64 17.639 9.726 0 17.639-7.913 17.639-17.639 0-9.726-7.913-17.639-17.639-17.639zm6.428 17.639c0 3.545-2.883 6.429-6.428 6.429s-6.429-2.884-6.429-6.429c0-3.545 2.884-6.429 6.429-6.429s6.428 2.884 6.428 6.429z"
+                                                fill="#FD6262" data-color="1"></path>
+                                            <path
+                                                d="M162.236 101.971c-9.726 0-17.639 7.913-17.639 17.639 0 9.727 7.913 17.639 17.639 17.639 9.727 0 17.64-7.913 17.64-17.639 0-9.726-7.913-17.639-17.64-17.639zm6.429 17.639a6.436 6.436 0 0 1-6.429 6.429 6.435 6.435 0 0 1-6.428-6.429 6.435 6.435 0 0 1 6.428-6.429 6.437 6.437 0 0 1 6.429 6.429z"
+                                                fill="#FD6262" data-color="1"></path>
+                                        </g>
+                                    </svg>
+                                    <h5 class="card-title about__tittle mt-2 slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">Full Customer
+                                        Experience Service</h5>
+                                    <p class="card-text about__desc slide-from-left-1 reveal"
+                                        style="animation-duration: .5s; animation-timing-function: ease;">I'm a
+                                        paragraph. Click here to
+                                        add your own text and edit me. Let your users get to know you.</p>
+                                    <div
+                                        class="about__sliding mt-3 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Desc section -->
+            <div class="row desc__row border border-secondary border-1 border-sm-md-0">
+                <div class="col-lg-6 desc__col-1 d-flex align-items-center justify-content-center sm-min-height-300">
+                    <h3 class="fs-2 fw-semibold text-white p-5 pb-3 slide-from-bottom text-center reveal"
+                        style="font-size:30px;">
+                        Unprecedented Velocity. <br class="d-sm-block d-lg-none">
+                         Impeccable Reliability.</h3>
+                </div>
+                <div class="col-lg-6 desc__col-2 h-100 border-start border-secondary border-1 border-start-sm-md-0">
+                    <div class="desc__info text-center text-lg-start">
+                        <p class="slide-from-left-1 text-center text-lg-start reveal" style="font-size:16px; color:#8a8a8a;">I'm a paragraph. Click
+                            here to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me
+                            to
+                            add your own content and make changes to the font. Feel free to drag and drop me anywhere
+                            you
+                            like on your page. I’m a great place for you to tell a story and let your users know a
+                            little more about you.</p>
+                        <p class="slide-from-left-1 text-center text-lg-start reveal" style="font-size:16px; color:#8a8a8a;">This is a great space
+                            to write a long text about your company and your services. You can use this space to go into
+                            a
+                            little more detail about your company. Talk about your team and what services you provide.
+                            Tell
+                            your visitors the story of how you came up with the idea for your business and what makes
+                            you different from your
+                            competitors. Make your company stand out and show your visitors who you are.</p>
+                        <button class="btn btn-danger mt-3 mb-0 px-4 py-3 intro__btn slide-from-left-3 reveal">Learn
+                            more</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Statistic Section-->
+        <div class="statistic__bg">
+            <div class="container-lg">
+                <div class="row justify-content-center statistic">
+                    <h3 class="text-white text-center slide-from-bottom fs-2 fw-normal mb-3 reveal">We Take Pride in Our
+                        Numbers</h3>
+                    <div class="col-lg-10 statistic_stats ">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-2-4 col-md-4 col-6 statistic__stats-detail ">
+                                <div class="statistic__info slide-from-left-1 reveal" style="animation-delay: 1s;">
+                                    <h3 class="statistic__head fw-semibold text-center" style="font-size: 60px;">15</h3>
+                                    <p class="statistic__stat-desc text-center" style="font-size: 14px;">
+                                        Years of experience</p>
+                                </div>
+                                <div class="about__sliding mt-4 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal"
+                                    style="animation-duration: 1s;"></div>
+                            </div>
+                            <div class="col-lg-2-4 col-md-4 col-6 statistic__stats-detail ">
+                                <div class="statistic__info slide-from-left-1 reveal" style="animation-delay: 1.1s;">
+                                    <h3 class="statistic__head fw-semibold text-center" style="font-size: 60px;">10K
+                                    </h3>
+                                    <p class="statistic__stat-desc text-center" style="font-size: 14px;">
+                                        Business Partners</p>
+                                </div>
+                                <div class="about__sliding mt-4 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal"
+                                    style="animation-duration: 1s;"></div>
+                            </div>
+                            <div class="col-lg-2-4 col-md-4 col-6 statistic__stats-detail ">
+                                <div class="statistic__info slide-from-left-1 reveal" style="animation-delay: 1.2s;">
+                                    <h3 class="statistic__head fw-semibold text-center" style="font-size: 60px;">25M
+                                    </h3>
+                                    <p class="statistic__stat-desc text-center" style="font-size: 14px;">
+                                        Products Installed</p>
+                                </div>
+                                <div class="about__sliding mt-4 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal"
+                                    style="animation-duration: 1s;"></div>
+                            </div>
+                            <div class="col-lg-2-4 col-md-4 col-6 statistic__stats-detail ">
+                                <div class="statistic__info slide-from-left-1 reveal" style="animation-delay: 1.3s;">
+                                    <h3 class="statistic__head fw-semibold text-center" style="font-size: 60px;">22</h3>
+                                    <p class="statistic__stat-desc text-center" style="font-size: 14px;">
+                                        Countries World Wide</p>
+                                </div>
+                                <div class="about__sliding mt-4 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal"
+                                    style="animation-duration: 1s;"></div>
+                            </div>
+                            <div class="col-lg-2-4 col-md-4 col-6 statistic__stats-detail ">
+                                <div class="statistic__info slide-from-left-1 reveal" style="animation-delay: 1.4s;">
+                                    <h3 class="statistic__head fw-semibold text-center" style="font-size: 60px;">5</h3>
+                                    <p class="statistic__stat-desc text-center" style="font-size: 14px;">
+                                        Industry Awards</p>
+                                </div>
+                                <div class="about__sliding mt-4 mb-1 border border-bottom border-2  w-100 zoom-and-slide reveal"
+                                    style="animation-duration: 1s;"></div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <!-- Partners Section -->
+        <div class="container-lg">
+            <!-- Partners -->
+            <div class="row partners__row border-sm-none border-lg border-secondary border-1 ">
+                <div
+                    class="col-lg-2-4 partners__row-item col-md-12 col-sm-12 border-end border-secondary border-1 fs-2 text-white lh-1 d-flex justify-content-center align-items-center">
+                    <p class="d-inline fw-normal">Our <br class="d-none d-md-block">Partners</p>
+                </div>
+                <div
+                    class="col-lg-2-4 partners__row-item col-md-12 col-sm-12 border-end border-secondary border-1 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/partner1.webp" alt="">
+                </div>
+                <div
+                    class="col-lg-2-4 partners__row-item col-md-12 col-sm-12 border-end border-secondary border-1 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/partner2.webp" alt="">
+                </div>
+                <div
+                    class="col-lg-2-4 partners__row-item col-md-12 col-sm-12 border-end border-secondary border-1 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/partner3.webp" alt="">
+
+                </div>
+                <div class="col-lg-2-4 partners__row-item col-md-12 col-sm-12 d-flex justify-content-center align-items-center">
+                    <img src="./assets/img/partner4.webp" alt="">
+                </div>
+            </div>
+            <!-- Request -->
+            <div class="row request__row border border-top-0 border-secondary border-1 border-top-sm-md-0 border-start-sm-md-0 border-end-sm-md-0" >
+                <div
+                    class="col-lg-7-2 d-flex request__row-bg justify-content-center align-items-center border-end border-secondary border-1">
+                    <h3 class="fs-2 fw-semibold text-white p-5 pb-3 slide-from-bottom text-center  reveal"
+                        style="font-size:30px;">Are You Ready to Accelerate <br> Your Business?</h3>
+                </div>
+                <div class="col-lg-4-8 d-flex align-items-center">
+                    <div class="request__info text-center text-lg-start p-5 py-lg-90">
+                        <p class="slide-from-left-1 reveal" reveal style="font-size:16px; color:#8a8a8a;">I'm a paragraph. Click here
+                            to add your own text and edit me. It’s easy. Just click “Edit Text” or double click me to
+                            add your own content and make changes to the font.</p>
+                        <button class="btn btn-danger mt-3 mb-0 px-4 py-3 intro__btn slide-from-left-3 reveal">Get
+                            Started</button>
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container-lg">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center text-lg-start mb-4 mb-md-0">
+                    <div class="footer__contact-head text-white mb-3 mb-md-4">
+                        <a href="#" class="fs-3 text-decoration-none text-white">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            Futurize
+                        </a>
+                    </div>
+                    <ul class="footer__contact-info list-unstyled text-color" style="font-size: 18px;">
+                        <li class="mb-2">123-456-7890</li>
+                        <li class="mb-2"><a class="text-decoration-none text-color" href="#">Info@mysite.com</a></li>
+                        <li class="mb-2">500 Terry Transcord St</li>
+                        <li>San Francisco, CA 94158</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 text-center text-lg-start">
+                    <ul class="footer__navigating list-unstyled mt-2" style="font-size: 18px;">
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="vision.html">Vision</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="programs.html">Programs</a>
+                        </li>
+                        <li class="footer__navigating-link">
+                            <a class="text-color text-decoration-none" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-danger mt-3 mb-0 px-3 py-3 intro__btn">Get Started</button>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0 px-4 px-lg-0" style="font-size: 18px;">
+                    <p class="text-color mt-2">Subscribe to Our Newsletter</p>
+                    <label for="emailform" class="form-label text-color fs-6">Email*</label>
+                    <input type="email" id="emailform" class="form-control bg-transparent text-color py-3 footer__input"
+                         required>
+                    <button class="btn btn-outline-secondary header__nav-btn px-4 py-3 mt-4"
+                        type="submit">Submit</button>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0">
+                    <p class="text-color mt-2" style="font-size: 18px;">Follow Us On: </p>
+                    <div class="footer__social mb-5">
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <p class="text-color mt-5" style="font-size:14px;">@ 2035 by Futurize.com. <br> Powered and secured
+                        by <a class="text-secondary" href="#">JesseCN</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous">
+    
+        
+    
+    
+    
+    </script>
+    <script>
+        var navbarLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navbarLinks.style.display = "block";
+            // console.log("haidu");
+        }
+        function closeMenu(){
+            navbarLinks.style.display = "none";
+            // alert("haidu");
+            
+        }
+
+        // Review on Scroll
+        window.addEventListener('scroll', reveal);
+        // Every time scrolling, the funcion will be triggered
+        function reveal(){
+            // Call varibles on of the scrolling animation els
+            var reveals = document.querySelectorAll('.reveal');
+            // Call each of them
+            for (var i=0; i<reveals.length; i++){
+                var windowHeight = window.innerHeight;
+                var revealtop = reveals[i].getBoundingClientRect().top;
+                var revealpoint = 10; /*The less the value is, the faster it will play when scrolling down*/
+                // The top of the reveal lies below the (fullpageheight - revealpoint)
+                if (revealtop < windowHeight - revealpoint){
+                    reveals[i].classList.add('active');
+                }
+                else{
+                    // In case you want to make the animation replay after scroll it again
+                    // reveals[i].classList.remove('active');
+                }
+            }
+        }
+
+    </script>
+</body>
+
+</html>

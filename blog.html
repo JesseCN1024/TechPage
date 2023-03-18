@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurize - The rising of our future</title>
+    <link rel="icon" type="favicon.ico" href="./assets/img/webicon.png">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/fonts/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="height: var(--header-height);">
+            <div class="container-md">
+                <!-- Logo -->
+                <a class="navbar-brand fw-semibold fst-italic fs-3" href="./index.html">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    Futurize
+                </a>
+                <!-- Nav links -->
+                <div class="justify-content-end d-flex position-relative">
+                    <ul class="navbar-nav navbar__nav-links" id="navLinks">
+                        <!-- Exit Btn -->
+                        <i class="fa-solid fa-x navbar__xbtn" onclick="closeMenu()"></i>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" aria-current="page" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="vision.html">Vision</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="programs.html">Programs</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-4">
+                            <a class="nav-link header__nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item navbar__nav-links-login me-4">
+                            <a class="nav-link p-0 d-flex align-items-center" style="font-size: 1.2rem;" href="#">
+                                <i class="fa-regular fa-user me-1" style="color: var(--nav-hover-color);"></i>
+                                <span class="fw-light header__nav-loginbtn" style="color: var(--nav-hover-color);">Log
+                                    in</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar__">
+                        <button class="btn btn-outline-light header__nav-btn">Get Started</button>
+                        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation" onclick="showMenu()">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <!-- Intro section -->
+        <div class="content__intro solutions__intro">
+            <div class="container-md text-center text-lg-start">
+                <h5 class="lh-1 text-white fw-normal slide-from-left-1 text-sm-center text-lg-start">The Big Data Blog</h5>
+            </div>
+        </div>
+        <!-- Services Section  -->
+        <div class="container-lg translate-yt-100">
+            <div class="row align-items-center gy-4">
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative" onclick="showBlogMenu(1)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu" class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a few short, punchy sentences and entices your audience to
+                            continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(2)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like blog__like-liked ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(3)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like blog__like-liked ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(4)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(5)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(6)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like blog__like-liked ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(7)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12 ">
+                    <div class="blog__item border border-secondary border-1 p-4">
+                        <div class="blog__item-head d-flex align-items-center position-relative ">
+                            <p class="blog__item-date text-secondary mb-0 fs-75rem me-2">Feb 27</p>
+                            <i class="fa-sharp fa-solid fa-circle-dot text-secondary mb-0 me-2" style="font-size: .3rem;"></i>
+                            <p class="blog__item-time text-secondary mb-0 fs-75rem">1 min</p>
+                            <span class="blog__item-option text-secondary mb-0 fs-75rem ms-auto blog__hover position-relative"
+                                onclick="showBlogMenu(8)">
+                                <i class="ti-more"></i>
+                            </span>
+                            <!-- More Menu -->
+                            <a href="#" id="blogMenu"
+                                class="text-decoration-none blog__item-moremenu border border-secondary border-1 px-3 py-2">
+                                <i class="fa-solid fa-share fs-1rem text-white"></i>
+                                <span class="fs=6 text-white">Share Post</span>
+                            </a>
+                        </div>
+                        <div class="blog__item-body pt-3 pb-5 border-bottom border-secondary border-1">
+                            <h3 class="blog__item-header text-white fs-4 fw-normal blog__hover">8 Technology Trends That Will Dominate
+                                The Year</h3>
+                            <p class="blog__item-desc text-secondary mt-3 ">Create a blog post subtitle that summarizes your post in a
+                                few short, punchy sentences and entices your audience to
+                                continue</p>
+                        </div>
+                        <div class="blog__item-footer d-flex align-items-center mt-2">
+                            <div class="blog__viewnumber fs-75rem d-flex align-items-center me-3">
+                                <i class="fa-regular fa-eye fs-1rem me-2"></i>
+                                <span>0</span>
+                            </div>
+                            <a href="#" class="text-decoration-none blog__chat fs-75rem d-flex align-items-center blog__hover">
+                                <i class="fa-solid fa-message fs-875rem me-2"></i>
+                                <span>1</span>
+                            </a>
+                            <a href="#" class="text-decoration-none blog__like ms-auto fs-75rem">
+                                <i class="fa-solid fa-heart solid-heart fs-1rem"></i>
+                                <i class="fa-regular fa-heart regular-heart fs-1rem"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container-lg trans">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center text-lg-start mb-4 mb-md-0">
+                    <div class="footer__contact-head text-white mb-3 mb-md-4">
+                        <a href="google.com" class="fs-3 text-decoration-none text-white">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            Futurize
+                        </a>
+                    </div>
+                    <ul class="footer__contact-info list-unstyled text-color" style="font-size: 18px;">
+                        <li class="mb-2">123-456-7890</li>
+                        <li class="mb-2"><a class="text-decoration-none text-color" href="#">Info@mysite.com</a></li>
+                        <li class="mb-2">500 Terry Transcord St</li>
+                        <li>San Francisco, CA 94158</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 text-center text-lg-start">
+                    <ul class="footer__navigating list-unstyled mt-2" style="font-size: 18px;">
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="vision.html">Vision</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="programs.html">Programs</a>
+                        </li>
+                        <li class="footer__navigating-link">
+                            <a class="text-color text-decoration-none" href="#">Blog</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-danger mt-3 mb-0 px-3 py-3 intro__btn">Get Started</button>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0 px-4 px-lg-0"
+                    style="font-size: 18px;">
+                    <p class="text-color mt-2">Subscribe to Our Newsletter</p>
+                    <label for="emailform" class="form-label text-color fs-6">Email*</label>
+                    <input type="email" id="emailform" class="form-control bg-transparent text-color py-3 footer__input"
+                        required>
+                    <button class="btn btn-outline-secondary header__nav-btn px-4 py-3 mt-4"
+                        type="submit">Submit</button>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0">
+                    <p class="text-color mt-2" style="font-size: 18px;">Follow Us On: </p>
+                    <div class="footer__social mb-5">
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <p class="text-color mt-5" style="font-size:14px;">@ 2035 by Futurize.com. <br> Powered and secured
+                        by <a class="text-secondary" href="#">JesseCN</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+
+
+
+
+
+        </script>
+    <script>
+        var navbarLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navbarLinks.style.display = "block";
+            // console.log("haidu");
+        }
+        function closeMenu() {
+            navbarLinks.style.display = "none";
+            // alert("haidu");
+
+        }
+
+        // Review on Scroll
+            window.addEventListener('scroll', reveal);
+            // Every time scrolling, the funcion will be triggered
+            function reveal() {
+                // Call varibles on of the scrolling animation els
+                var reveals = document.querySelectorAll('.reveal');
+                // Call each of them
+                for (var i = 0; i < reveals.length; i++) {
+                    var windowHeight = window.innerHeight;
+                    var revealtop = reveals[i].getBoundingClientRect().top;
+                    var revealpoint = 10; /*The less the value is, the faster it will play when scrolling down*/
+                    // The top of the reveal lies below the (fullpageheight - revealpoint)
+                    if (revealtop < windowHeight - revealpoint) {
+                        reveals[i].classList.add('active');
+                    }
+                    else {
+                        // In case you want to make the animation replay after scroll it again
+                        // reveals[i].classList.remove('active');
+                    }
+                }
+            }
+
+        // show More Menu
+        var blogMenus = document.getElementsByClassName("blog__item-moremenu");
+        function showBlogMenu(x){
+            if (blogMenus[x-1].style.display=="block"){
+                blogMenus[x-1].style.display="none";
+                // document.body.addEventListener('click', closeBlogMenu(x));
+            }
+            else{
+                for (const blogMenu of blogMenus) {
+                    blogMenu.style.display = "none";
+                }
+                blogMenus[x-1].style.display="block";
+            }
+        }
+        function closeBlogMenu(x){
+            // blogMenus[x - 1].style.display = "none";
+                alert(x+2);
+        }
+    </script>
+</body>
+
+</html>

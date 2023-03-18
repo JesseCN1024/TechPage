@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futurize - The rising of our future</title>
+    <link rel="icon" type="favicon.ico" href="./assets/img/webicon.png">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-6.2.1-web/css/all.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+
+<body>
+    <!-- Header -->
+    <div class="header fixed-top">
+        <nav class="navbar navbar-dark bg-dark navbar-expand-lg" style="height: var(--header-height);">
+            <div class="container-md">
+                <!-- Logo -->
+                <a class="navbar-brand fw-semibold fst-italic fs-3" href="./index.html">
+                    <i class="fa-solid fa-bolt-lightning"></i>
+                    Futurize
+                </a>
+                <!-- Nav links -->
+                <div class="justify-content-end d-flex position-relative">
+                    <ul class="navbar-nav navbar__nav-links" id="navLinks">
+                        <!-- Exit Btn -->
+                        <i class="fa-solid fa-x navbar__xbtn" onclick="closeMenu()"></i>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" aria-current="page" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="vision.html">Vision</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-2">
+                            <a class="nav-link header__nav-link" href="#">Programs</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item me-4">
+                            <a class="nav-link header__nav-link" href="blog.html">Blog</a>
+                        </li>
+                        <li class="nav-item navbar__nav-links-item navbar__nav-links-login me-4">
+                            <a class="nav-link p-0 d-flex align-items-center" style="font-size: 1.2rem;" href="#">
+                                <i class="fa-regular fa-user me-1" style="color: var(--nav-hover-color);"></i>
+                                <span class="fw-light header__nav-loginbtn" style="color: var(--nav-hover-color);">Log
+                                    in</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar__">
+                        <button class="btn btn-outline-light header__nav-btn">Get Started</button>
+                        <button class="navbar-toggler ms-2" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false"
+                            aria-label="Toggle navigation" onclick="showMenu()">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    </div>
+                </div>
+
+            </div>
+        </nav>
+    </div>
+    <!-- Content -->
+    <div class="content">
+        <!-- Intro section -->
+        <div class="content__intro solutions__intro" style="background-image: none;">
+            <div class="container-md text-center text-lg-start">
+                <h5 class="lh-1 text-white fw-normal slide-from-left-1 text-sm-center text-lg-start">Data Analysis
+                    Programs</h5>
+                <p
+                    class="card-text vision__intro-desc text-white lh-sm mt-4 mt-lg-5 slide-from-left-2 text-sm-center text-lg-start">
+                    Good Quality, Cheap and Rational</p>
+            </div>
+        </div>
+        <!-- Programs Section  -->
+        <div class="container-lg">
+            <div class="row justify-content-center align-items-center g-0">
+                <div class="col-lg-4 col-md-6 col-12 border border-secondary border-1">
+                    <div class="program__iconholder border-bottom p-4">
+                        <div class="program__icon-bg d-flex align-items-center justify-content-center rounded-4">
+                            <svg class="w-25"
+                                style="animation-duration: .5s; animation-timing-function: ease;"
+                                preserveAspectRatio="xMidYMid meet" data-bbox="19.868 38.586 160.264 121.194"
+                                viewBox="19.868 38.586 160.264 121.194" height="200" width="200"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation"
+                                aria-hidden="true" aria-labelledby="svgcid--67bwbc-4nmds3">
+                                <defs>
+                                    <style>
+                                        #comp-kk2skte2 svg [data-color="1"] {
+                                            fill: #FD6262;
+                                        }
+                                    </style>
+                                </defs>
+                                <title id="svgcid--67bwbc-4nmds3"></title>
+                                <g>
+                                    <path
+                                        d="M149.73 83.547c-2.538-25.284-24.211-44.961-49.73-44.961S52.808 58.263 50.269 83.547c-17.67 3.837-30.401 19.54-30.401 37.674 0 21.261 17.297 38.559 38.559 38.559h83.146c21.261 0 38.559-17.297 38.559-38.559 0-18.135-12.732-33.838-30.402-37.674zm-8.157 64.423H58.427a26.755 26.755 0 0 1-16.198-5.482l21.237-21.114 13.181 13.19 36.505-35.875 8.081 8.047 6.076-30.357-30.353 6.177 8.281 8.243-28.512 28.025-13.236-13.239-28.56 28.399a26.646 26.646 0 0 1-3.252-12.763c0-13.887 10.85-25.598 24.701-26.661l5.452-.419v-5.488l-.003-.16C61.868 67.486 78.992 50.395 100 50.395c21.047 0 38.171 17.078 38.172 38.069l-.004 5.677 5.453.419c13.851 1.063 24.701 12.774 24.701 26.661 0 14.749-11.999 26.749-26.749 26.749z"
+                                        fill="#FD6262" data-color="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="program__info px-5 py-4">
+                        <a class="text-decoration-none text-white fw-light fs-4 lh-1 d-block mb-3" href="#" style="height: 3.4rem;">Cloud Analytics For Beginners</a>
+                        <p class="text-white">2 Weeks</p>
+                        <div class="program__info-breakline bg-light w-25 mb-3" style="height:1px;"></div>
+                        <p class="program__info-price text-white">$80.00</p>
+                        <button class="btn btn-danger mt-3 mb-0 px-5 py-2 intro__btn">Join</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 border border-secondary border-1">
+                    <div class="program__iconholder border-bottom p-4">
+                        <div class="program__icon-bg d-flex align-items-center justify-content-center rounded-4">
+                            <svg class="w-25"
+                                style="animation-duration: .5s; animation-timing-function: ease;" preserveAspectRatio="xMidYMid meet"
+                                data-bbox="20.532 45.947 158.928 108.107" viewBox="20.532 45.947 158.928 108.107" height="200" width="200"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"
+                                aria-labelledby="svgcid--mb6mjv-gh4jti">
+                                <defs>
+                                    <style>
+                                        #comp-kk2sktdt svg [data-color="1"] {
+                                            fill: #FD6262;
+                                        }
+                                    </style>
+                                </defs>
+                                <title id="svgcid--mb6mjv-gh4jti"></title>
+                                <g>
+                                    <path
+                                        d="M82.935 75.852l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.828 4.828 0 0 0 0-8.768l-44.836-20.692a4.826 4.826 0 0 0-4.047 0L82.935 67.083a4.828 4.828 0 0 0 0 8.769zm46.86-19.759l33.312 15.374-33.312 15.374-33.312-15.374 33.312-15.374z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path
+                                        d="M172.608 95.616l-42.813 19.758-42.813-19.758a4.83 4.83 0 0 0-4.047 8.769l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.83 4.83 0 0 0-4.047-8.769z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path
+                                        d="M172.608 124.149l-42.813 19.758-42.813-19.758a4.828 4.828 0 1 0-4.047 8.769l44.836 20.692a4.833 4.833 0 0 0 4.048 0l44.836-20.692a4.83 4.83 0 0 0-4.047-8.769z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path d="M65.095 95.171H25.368a4.829 4.829 0 1 0 0 9.658h39.727a4.829 4.829 0 1 0 0-9.658z" fill="#FD6262"
+                                        data-color="1"></path>
+                                    <path d="M65.095 76.446H37.44a4.829 4.829 0 1 0 0 9.658h27.655a4.829 4.829 0 1 0 0-9.658z" fill="#FD6262"
+                                        data-color="1"></path>
+                                    <path d="M65.095 113.897H49.512a4.829 4.829 0 1 0 0 9.658h15.583a4.829 4.829 0 1 0 0-9.658z" fill="#FD6262"
+                                        data-color="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="program__info px-5 py-4">
+                        <a class="text-decoration-none text-white fw-light fs-4 lh-1 d-block mb-3" href="#" style="height: 3.4rem;">Data Analytics Tools</a>
+                        <p class="text-white">4 Weeks</p>
+                        <div class="program__info-breakline bg-light w-25 mb-3" style="height:1px;"></div>
+                        <p class="program__info-price text-white">$180.00</p>
+                        <button class="btn btn-danger mt-3 mb-0 px-5 py-2 intro__btn">Join</button>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-12 border border-secondary border-1">
+                    <div class="program__iconholder border-bottom p-4">
+                        <div class="program__icon-bg d-flex align-items-center justify-content-center rounded-4">
+                            <svg class="w-25"
+                                style="animation-duration: .5s; animation-timing-function: ease;" preserveAspectRatio="xMidYMid meet"
+                                data-bbox="20.42 48.257 159.16 103.485" viewBox="20.42 48.257 159.16 103.485" height="200" width="200"
+                                xmlns="http://www.w3.org/2000/svg" data-type="color" role="presentation" aria-hidden="true"
+                                aria-labelledby="svgcid-pe8egg23m96y">
+                                <defs>
+                                    <style>
+                                        #comp-kk2sktdx svg [data-color="1"] {
+                                            fill: #FD6262;
+                                        }
+                                    </style>
+                                </defs>
+                                <title id="svgcid-pe8egg23m96y"></title>
+                                <g>
+                                    <path
+                                        d="M177.118 96.151L142.48 80.165a4.235 4.235 0 0 0-3.555 0l-34.637 15.986a4.252 4.252 0 0 0-2.464 3.849c0 1.648.967 3.159 2.463 3.85l34.638 15.986c.553.255 1.167.39 1.777.39.619 0 1.217-.131 1.778-.39l34.638-15.986c1.496-.691 2.462-2.202 2.462-3.85s-.967-3.159-2.462-3.849zM165.223 100l-24.521 11.316L116.181 100l24.52-11.316L165.223 100z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path
+                                        d="M98.177 100a4.251 4.251 0 0 0-2.463-3.849L61.076 80.165a4.236 4.236 0 0 0-3.554 0L22.883 96.151c-1.496.691-2.463 2.202-2.463 3.849s.967 3.159 2.463 3.85l34.638 15.985a4.257 4.257 0 0 0 1.777.391c.619 0 1.216-.131 1.777-.39l34.638-15.986a4.253 4.253 0 0 0 2.464-3.85zm-14.358 0l-24.521 11.316L34.778 100l24.52-11.316L83.819 100z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path
+                                        d="M63.585 72.333l34.638 15.985a4.257 4.257 0 0 0 1.777.391 4.21 4.21 0 0 0 1.777-.39l34.639-15.986a4.253 4.253 0 0 0 2.462-3.85 4.252 4.252 0 0 0-2.462-3.849l-34.639-15.986a4.236 4.236 0 0 0-3.554 0L63.585 64.634a4.253 4.253 0 0 0-2.463 3.849c0 1.648.966 3.159 2.463 3.85zm11.895-3.85L100 57.167l24.52 11.316L100 79.8 75.48 68.483z"
+                                        fill="#FD6262" data-color="1"></path>
+                                    <path
+                                        d="M136.417 127.667l-34.639-15.986a4.236 4.236 0 0 0-3.554 0l-34.639 15.986c-1.496.691-2.463 2.202-2.463 3.849s.967 3.159 2.463 3.85l34.638 15.985a4.257 4.257 0 0 0 1.777.391 4.21 4.21 0 0 0 1.777-.39l34.639-15.986c1.496-.691 2.462-2.202 2.462-3.85s-.966-3.158-2.461-3.849zm-11.897 3.85L100 142.833l-24.52-11.316L100 120.2l24.52 11.317z"
+                                        fill="#FD6262" data-color="1"></path>
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="program__info px-5 py-4">
+                        <a class="text-decoration-none text-white fw-light fs-4 lh-1 d-block mb-3" href="#" style="height: 3.4rem;">Data-Driven Decision Making</a>
+                        <p class="text-white">3 Weeks</p>
+                        <div class="program__info-breakline bg-light w-25 mb-3" style="height:1px;"></div>
+                        <p class="program__info-price text-white">$80.00</p>
+                        <button class="btn btn-danger mt-3 mb-0 px-5 py-2 intro__btn">Join</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+        <div class="container-lg trans">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12 text-center text-lg-start mb-4 mb-md-0">
+                    <div class="footer__contact-head text-white mb-3 mb-md-4">
+                        <a href="google.com" class="fs-3 text-decoration-none text-white">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                            Futurize
+                        </a>
+                    </div>
+                    <ul class="footer__contact-info list-unstyled text-color" style="font-size: 18px;">
+                        <li class="mb-2">123-456-7890</li>
+                        <li class="mb-2"><a class="text-decoration-none text-color" href="#">Info@mysite.com</a></li>
+                        <li class="mb-2">500 Terry Transcord St</li>
+                        <li>San Francisco, CA 94158</li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-12 text-center text-lg-start">
+                    <ul class="footer__navigating list-unstyled mt-2" style="font-size: 18px;">
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="solutions.html">Solutions</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="vision.html">Vision</a>
+                        </li>
+                        <li class="footer__navigating-link mb-3 mb-md-4">
+                            <a class="text-color text-decoration-none" href="#">Programs</a>
+                        </li>
+                        <li class="footer__navigating-link">
+                            <a class="text-color text-decoration-none" href="blog.html">Blog</a>
+                        </li>
+                    </ul>
+                    <button class="btn btn-danger mt-3 mb-0 px-3 py-3 intro__btn">Get Started</button>
+                </div>
+                <div class="col-lg-4 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0 px-4 px-lg-0"
+                    style="font-size: 18px;">
+                    <p class="text-color mt-2">Subscribe to Our Newsletter</p>
+                    <label for="emailform" class="form-label text-color fs-6">Email*</label>
+                    <input type="email" id="emailform" class="form-control bg-transparent text-color py-3 footer__input"
+                        required>
+                    <button class="btn btn-outline-secondary header__nav-btn px-4 py-3 mt-4"
+                        type="submit">Submit</button>
+                </div>
+                <div class="col-lg-2 col-md-12 col-sm-12 text-center text-lg-start mt-5 mt-lg-0">
+                    <p class="text-color mt-2" style="font-size: 18px;">Follow Us On: </p>
+                    <div class="footer__social mb-5">
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" class="footer__social-link me-1"><i class="fa-brands fa-twitter"></i></a>
+                    </div>
+                    <p class="text-color mt-5" style="font-size:14px;">@ 2035 by Futurize.com. <br> Powered and secured
+                        by <a class="text-secondary" href="#">JesseCN</a></p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous">
+
+
+
+
+
+        </script>
+    <script>
+        var navbarLinks = document.getElementById("navLinks");
+        function showMenu() {
+            navbarLinks.style.display = "block";
+            // console.log("haidu");
+        }
+        function closeMenu() {
+            navbarLinks.style.display = "none";
+            // alert("haidu");
+
+        }
+    </script>
+</body>
+
+</html>
