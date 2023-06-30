@@ -1,6 +1,7 @@
 # Building a Responsive Tech website: Futurize :fire:
 *Started: 07/03/2023 - 17/03/2023 and 5 minutes to read*
-:star: This is a project that I made to practice and apply bootstrap in building responsive website. Cloning from a pattern which was on wix.com combining with some ideas of myself. The project uses Bootstrap as CSS framework, with a little basic javascript. Check the website at this [link](https://jessecn1024.github.io/TechPage/).
+
+:star: This is a project that I made to practice and apply bootstrap in building responsive website with multiple pages. Cloning from a pattern which was on wix.com combining with some ideas of myself. The project uses Bootstrap as CSS framework, with a little basic javascript. Check the website at this [link](https://jessecn1024.github.io/TechPage/).
 ***
 
 ## Features in the Project
